@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Online Shop Cart</title>
+</head>
+<body>
+    <!-- navbar -->
+    <navbar class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fa fa-bars"></i>
+            </span>
+            <img src="./img/nav-logo.png" alt="store logo">
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fa fa-shopping-cart"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </navbar>
+
+
+    <!-- banner -->
+    <header class="header-banner" style="background: url(./img/background.jpg) center/cover no-repeat;">
+        <div class="banner">
+            <h1 class="banner-title">furniture collection</h1>
+            <button class="banner-btn">shop now</button>
+        </div>
+    </header>
+
+
+    <!-- products -->
+    <section class="products">
+        <div class="section-title">
+            <h2>our 
+                <span class="span-title">products</span>
+            </h2>
+        </div>
+        <div class="products-center"></div>
+    </section>
+
+    <!-- cart -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fa fa-window-close-o"></i>
+            </span>
+            <h2>your basket</h2>
+            <div class="cart-content"></div>
+            <div class="cart-footer">
+                <h3>your total : € <span class="cart-total">0</span></h3>
+                <button class="clear-cart clear-btn">clear cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-copyright">
+            <div>
+                <span>© 2020 Marko Milenkovic</span>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
